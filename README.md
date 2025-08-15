@@ -1,4 +1,4 @@
-Shiva Sai Muthyam - Portfolio Website
+**Shiva Sai Muthyam - Portfolio Website**
 
 A modern, responsive portfolio website showcasing my skills, projects, and experience as a Computer Science Engineering student and aspiring software developer.
 
