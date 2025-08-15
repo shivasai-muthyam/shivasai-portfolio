@@ -46,43 +46,29 @@ const ProjectsSection = () => {
           </div>
 
           {/* Projects Grid */}
-          <div className="grid lg:grid-cols-1 gap-8 mb-12">
-            {projects.filter(project => project.featured).map((project, index) => (
+          <div className="grid gap-8 mb-12">
+            {projects.filter(project => project.featured).map((project) => (
               <Card key={project.title} className="overflow-hidden shadow-soft hover:shadow-medium transition-smooth">
-                <div className={`grid md:grid-cols-2 gap-0 ${index % 2 === 1 ? 'md:grid-flow-col-dense' : ''}`}>
-                  {/* Project Image */}
-                  <div className={`relative overflow-hidden ${index % 2 === 1 ? 'md:col-start-2' : ''}`}>
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className="w-full h-64 md:h-full object-cover hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-primary/10 hover:bg-primary/5 transition-colors"></div>
-                  </div>
+                <div className="p-8">
+                  <CardHeader className="p-0">
+                    <CardTitle className="text-2xl font-bold text-foreground mb-3">
+                      {project.title}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="p-0">
+                    <p className="text-muted-foreground mb-6 leading-relaxed">
+                      {project.description}
+                    </p>
 
-                  {/* Project Content */}
-                  <div className={`p-8 flex flex-col justify-center ${index % 2 === 1 ? 'md:col-start-1' : ''}`}>
-                    <CardHeader className="p-0">
-                      <CardTitle className="text-2xl font-bold text-foreground mb-3">
-                        {project.title}
-                      </CardTitle>
-                    </CardHeader>
-                    <CardContent className="p-0">
-                      <p className="text-muted-foreground mb-6 leading-relaxed">
-                        {project.description}
-                      </p>
-
-                      {/* Technologies */}
-                      <div className="flex flex-wrap gap-2 mb-6">
-                        {project.technologies.map((tech) => (
-                          <Badge key={tech} variant="secondary" className="px-3 py-1">
-                            {tech}
-                          </Badge>
-                        ))}
-                      </div>
-
-                    </CardContent>
-                  </div>
+                    {/* Technologies */}
+                    <div className="flex flex-wrap gap-2 mb-6">
+                      {project.technologies.map((tech) => (
+                        <Badge key={tech} variant="secondary" className="px-3 py-1">
+                          {tech}
+                        </Badge>
+                      ))}
+                    </div>
+                  </CardContent>
                 </div>
               </Card>
             ))}
