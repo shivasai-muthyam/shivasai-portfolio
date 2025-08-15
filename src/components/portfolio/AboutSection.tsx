@@ -26,7 +26,7 @@ const AboutSection = () => {
             <div className="flex justify-center lg:justify-start">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=400&fit=crop&crop=face"
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
                   alt="Professional workspace"
                   className="w-80 h-80 object-cover rounded-2xl shadow-medium"
                 />
