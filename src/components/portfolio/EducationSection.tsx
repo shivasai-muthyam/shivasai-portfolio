@@ -58,7 +58,7 @@ const EducationSection = () => {
       date: "2025",
       type: "Completion Certificate",
       description: "Completed a structured certification program in Data Structures and Algorithms, solving 150+ problems and gaining strong
-problem-solving skills for coding interviews..",
+problem-solving skills coding interviews..",
       link: "https://smartinterviews.in/certificate/6791f243"
     },
   ];
