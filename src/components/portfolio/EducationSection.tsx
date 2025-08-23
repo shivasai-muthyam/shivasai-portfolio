@@ -51,7 +51,7 @@ const EducationSection = () => {
       type: "Completion Certificate",
       description: "Comprehensive course covering data structures and algorithms implementation in Java.",
       link: "https://drive.google.com/file/d/1piueVRGZgqkYLtl8wmQtUnpuuutiTuV2/view"
-    }
+    },
     {
       title: "Smart Coder",
       issuer: "Smart Interviews",
