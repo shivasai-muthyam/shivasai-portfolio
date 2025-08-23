@@ -47,10 +47,19 @@ const EducationSection = () => {
     {
       title: "Learning DSA using JAVA",
       issuer: "Apna College",
-      date: "2023",
+      date: "2024",
       type: "Completion Certificate",
       description: "Comprehensive course covering data structures and algorithms implementation in Java.",
       link: "https://drive.google.com/file/d/1piueVRGZgqkYLtl8wmQtUnpuuutiTuV2/view"
+    }
+    {
+      title: "Smart Coder",
+      issuer: "Smart Interviews",
+      date: "2025",
+      type: "Completion Certificate",
+      description: "Completed a structured certification program in Data Structures and Algorithms, solving 150+ problems and gaining strong
+problem-solving skills for coding interviews..",
+      link: "https://smartinterviews.in/certificate/6791f243"
     }
   ];
 
