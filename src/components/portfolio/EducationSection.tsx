@@ -174,7 +174,7 @@ const EducationSection = () => {
                         className="w-full"
                       >
                         <ExternalLink className="w-4 h-4 mr-2" />
-                        View DSA Certificate
+                        View Completion Certificate
                       </Button>
                     )}
                   </CardContent>
